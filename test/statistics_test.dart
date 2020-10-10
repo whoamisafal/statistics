@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:statistics/statistics_helper/s_data.dart';
-import 'package:statistics/statistics/measure_of_centeral_tendency/quartiles.dart';
+import 'package:statistics_c/statistics_helper/s_data.dart';
+import 'package:statistics_c/statistics/measure_of_centeral_tendency/quartiles.dart';
 
 void main() {
   test('adds one to input values', () {

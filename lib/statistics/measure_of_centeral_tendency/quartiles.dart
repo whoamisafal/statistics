@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-import 'package:statistics/statistics_helper/s_data.dart';
+import 'package:statistics_c/statistics_helper/s_data.dart';
 
 class Quartiles {
   final Type type;

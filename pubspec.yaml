@@ -1,8 +1,8 @@
-name: statistics
-description: A new Flutter package project.
-version: 0.0.1
-author:
-homepage:
+name: statistics_c
+description:  In this package, I have work on the Mean, Median and Quartiles.
+version: 0.1.1
+author: Safal Shrestha <computerstha12@gmail.com>
+homepage: https://github.com/safalstha142/statistics
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
