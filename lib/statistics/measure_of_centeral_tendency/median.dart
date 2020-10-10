@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:statistics_c/Sort/sort.dart';
 
 import 'package:statistics_c/statistics_helper/s_data.dart';
 
@@ -59,11 +60,14 @@ class Median {
     for (var item in idata) {
       d.add(item.data);
     }
+    Sort asc = new Sort(data: d, desc: false);
+    List arrData = <double>[];
+    arrData = asc.sorting;
     final md = (idata.length + 1) / 2;
     if (md.toString().contains('.5')) {
-      return (d[md.toInt() - 1] + d[md.toInt()]) / 2;
+      return (arrData[md.toInt() - 1] + arrData[md.toInt()]) / 2;
     }
-    return d[md.toInt()];
+    return arrData[md.toInt() - 1];
   }
 
   double get _calcContinuousMedian {

@@ -6,13 +6,13 @@ class Sort {
   Sort({@required this.data, @required this.desc});
   List<double> get sorting {
     if (desc) {
-      return decr;
+      return _decr;
     }
 
-    return asc;
+    return _asc;
   }
 
-  List<double> get asc {
+  List<double> get _asc {
     double temp;
     for (int i = 0; i < data.length; i++) {
       for (int j = 0; j < i; j++) {
@@ -27,7 +27,7 @@ class Sort {
     return data;
   }
 
-  List<double> get decr {
+  List<double> get _decr {
     double temp;
     for (int i = 0; i < data.length; i++) {
       for (int j = 0; j < i; j++) {
