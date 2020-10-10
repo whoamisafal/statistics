@@ -212,5 +212,5 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 
-(/statistics-/output.png)
-Format: ![Alt Text](https://github.com/safalstha142/statistics-/blob/master/output.png)
+(/statistics/output.png)
+Format: ![Alt Text](https://github.com/safalstha142/statistics/blob/master/output.png)
